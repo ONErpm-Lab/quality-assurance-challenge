@@ -1,0 +1,24 @@
+{
+  "name": "testes-automatizados-correios",
+  "version": "1.0.0",
+  "description": "Automated e2e and API Testing Suite",
+  "main": "index.js",
+  "author": "Camila Moura",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.8.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "globals": "^15.1.0",
+    "multiple-cucumber-html-reporter": "^3.6.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    },
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/script/**"
+  }
+}

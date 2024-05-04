@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Cruzamento de Informações de CEP entre API ViaCEP e Site dos Correios",
+    "line": 1,
+    "id": "cruzamento-de-informações-de-cep-entre-api-viacep-e-site-dos-correios",
+    "tags": [],
+    "uri": "two-tierValidation.feature",
+    "elements": [
+      {
+        "id": "cruzamento-de-informações-de-cep-entre-api-viacep-e-site-dos-correios;validar-consistência-das-informações-de-cep-entre-api-e-site-dos-correios",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Validar consistência das informações de CEP entre API e Site dos Correios",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Eu faço uma requisição na API para o CEP \"26183220\"",
+            "result": {
+              "status": "passed",
+              "duration": 165000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Que eu acesso a página de busca de CEP dos Correios e realizo a busca pelo CEP \"26183220\"",
+            "result": {
+              "status": "passed",
+              "duration": 10185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Eu devo ver que as informações na página correspondem às armazenadas da API",
+            "result": {
+              "status": "passed",
+              "duration": 121000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cruzamento-de-informações-de-cep-entre-api-viacep-e-site-dos-correios;validar-consistência-das-informações-de-cep-entre-api-e-site-dos-correios",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Validar consistência das informações de CEP entre API e Site dos Correios",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Eu faço uma requisição na API para o CEP \"37503192\"",
+            "result": {
+              "status": "passed",
+              "duration": 293000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Que eu acesso a página de busca de CEP dos Correios e realizo a busca pelo CEP \"37503192\"",
+            "result": {
+              "status": "passed",
+              "duration": 4663000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Eu devo ver que as informações na página correspondem às armazenadas da API",
+            "result": {
+              "status": "passed",
+              "duration": 97000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cruzamento-de-informações-de-cep-entre-api-viacep-e-site-dos-correios;validar-consistência-das-informações-de-cep-entre-api-e-site-dos-correios",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Validar consistência das informações de CEP entre API e Site dos Correios",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Eu faço uma requisição na API para o CEP \"69151588\"",
+            "result": {
+              "status": "passed",
+              "duration": 291000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Que eu acesso a página de busca de CEP dos Correios e realizo a busca pelo CEP \"69151588\"",
+            "result": {
+              "status": "passed",
+              "duration": 4019000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Eu devo ver que as informações na página correspondem às armazenadas da API",
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
